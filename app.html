@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
+    />
     <title>Reddocks App Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>WELCOME TO Reddocks!</h1>
     <h2>Hi <span id="username">username</span>!</h2>
-</body>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-auth.js"></script>
+    <script src="./js/firebase-config.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
