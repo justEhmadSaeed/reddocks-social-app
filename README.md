@@ -1,1 +1,3 @@
-# reddocks-social-app
+# Reddocks-Social-App 🔥
+- Embedded with Firebase
+- Added Firebase Authentication
